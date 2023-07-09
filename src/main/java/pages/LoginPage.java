@@ -30,7 +30,7 @@ public class LoginPage extends BasePage {
         enterText(PASSWORD_LOCATOR, pass);
     }
 
-    //Method to click on Login button
+    //Method to click on login button
     public void clickOnLoginButton() {
         performClickOnWebElement(LOGIN_BUTTON_LOCATOR);
     }
