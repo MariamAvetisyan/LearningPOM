@@ -1,14 +1,13 @@
 package baseTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import objects.constants.URLs;
 import objects.enums.Browser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
-import setup.ConfigFileReader;
+import setup.Configuration;
 
 public class BaseTest {
    protected WebDriver driver ;
@@ -34,7 +33,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite(){
-        ConfigFileReader reader = new ConfigFileReader();
+        Configuration reader = new Configuration();
         System.out.println("before Suite ");
     }
     @AfterSuite

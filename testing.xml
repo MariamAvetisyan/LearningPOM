@@ -4,7 +4,7 @@
     <test name="justForTesting">
         <classes>
             <class name="login.LoginPositiveTests"/>
-            <class name="justForTesting.Class1">
+            <class name="justForTesting.TestingAnnotations">
                 <methods>
                     <exclude name="MobileStudentLogin"/>
                 </methods>

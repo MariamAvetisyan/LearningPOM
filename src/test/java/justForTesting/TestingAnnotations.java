@@ -1,11 +1,10 @@
 package justForTesting;
 
 import baseTest.BaseTest;
-import com.beust.jcommander.Parameter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Class1 extends BaseTest
+public class TestingAnnotations extends BaseTest
 {
     @Test
     @Parameters("myText")
